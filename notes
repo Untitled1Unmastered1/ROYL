@@ -1,0 +1,22 @@
+Objective: 
+
+- allows customers to schedule appointments for irrigation work and specify the kind of irrigation work. customer has a 
+profile which shows completed jobs on it. very simple interface for customer. 
+
+- Employee side: task managment tool. allows employees to see scheduled appointments as well as mark them as done, add 
+details, and store the job into a directory associated with the specific customer(or user), which an emloyee can then 
+click on customer when they search for them and see all of the jobs and click on links to the jobs along with all details.
+They can also edit the job, as well as add notes that only an employee can see. 
+
+- on sign up page, it asks if customer or employee. if a customer puts employee by mistake or intentionally, it will ask
+redirect to a page where they will be asked a specific pin that only an employee will have. if this is incorrect then 
+it will redirect them back to the sign up page with a validation message. 
+
+
+models needed:
+
+- employee 
+- customer 
+- jobs 
+
+
