@@ -19,4 +19,15 @@ models needed:
 - customer 
 - jobs 
 
+-employee-                                     -customer-                    -job- 
+has_many customers                       has_many jobs                   belongs_to employee
+has_many jobs, through customers         attributes:                    belongs_to customer
+attributes:                              -email                                attributes: 
+- email                                  -password
+-password                                -uid 
+-uid                                     -name 
+-name 
+
+
+
 
