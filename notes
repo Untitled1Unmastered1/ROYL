@@ -23,10 +23,19 @@ models needed:
 has_many customers                       has_many jobs                   belongs_to employee
 has_many jobs, through customers         attributes:                    belongs_to customer
 attributes:                              -email                                attributes: 
-- email                                  -password
--password                                -uid 
--uid                                     -name 
--name 
+- email                                  -password                              -title
+-password                                -uid                                   - desc
+-uid                                     -name                                  - employee_id
+-name                                                                           - customer_id
+                                                                                - status(completed)
+                                                                                - address 
+
+
+
+need to:
+- set associations on models(security also)
+-configure routes
+- set up views and controller actions               
 
 
 
