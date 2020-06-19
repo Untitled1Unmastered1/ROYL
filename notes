@@ -33,7 +33,6 @@ attributes:                              -email                                a
 
 
 need to:
-- set associations on models(security also)
 -configure routes
 - set up views and controller actions               
 
